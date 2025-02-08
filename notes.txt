@@ -22,3 +22,8 @@ chmod -> muda a ownership de um ficheiro/pasta
     exemplo: country=Pakistan
 * é preciso usar '$' para aceder a variáveis já existentes (referência)
     exemplo: same_country=$country
+
+* $1 denota o argumento inicial a ser passado, $2 denota o segundo...
+
+* Escrever num ficheiro
+    exemplo: echo "This is some text." > output.txt
