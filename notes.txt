@@ -1,0 +1,24 @@
+SYNTAX:
+command [OPTIONS] arguments
+
+COMMANDS:
+ps -> print shell
+date -> data atual
+pwd -> print working directory
+ls -> lista os ficheiros na diretoria atual
+echo -> faz print a uma string de texto ou ao valor de uma variavel no terminal
+man -> manual
+    exemplo: man ls -> manual do comando para criar listas
+chmod -> muda a ownership de um ficheiro/pasta
+    u -> representa o utilizador atual
+    whoami -> devolve o utilizador atual
+    exemplo: chmod u+x run_all.sh
+        |-> dá permissão ao utilizador atual para executar o ficheiro run_all.sh
+
+* Bash scripts começam com '#'
+* which bash -> devolve a diretoria da bash
+* # -> usados para comentar
+* não há data types em Bash
+    exemplo: country=Pakistan
+* é preciso usar '$' para aceder a variáveis já existentes (referência)
+    exemplo: same_country=$country
