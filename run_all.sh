@@ -9,7 +9,7 @@ echo -e "\nenter the path to directory"
 read the_path
 # lê um input e guarda-o na variável the_path
 
-echo -e "\n you path has the following files and folders: "
+echo -e "\nyour path has the following files and folders: "
 
 ls $the_path
 # lista o conteúdo da diretoria guardada na variável the_path
