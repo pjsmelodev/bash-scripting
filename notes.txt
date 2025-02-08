@@ -27,3 +27,62 @@ chmod -> muda a ownership de um ficheiro/pasta
 
 * Escrever num ficheiro
     exemplo: echo "This is some text." > output.txt
+* Acescentar a um ficheiro
+    exemplo: echo "More text" >> output.txt
+* Redirecionar output
+    exemplo: ls > files.txt
+
+COMANDOS BÁCISOS:
+cd -> diretoria atual
+ls -> lista
+mkdir -> criar pasta
+touch -> cria um novo ficheiro
+rm -> remove um ficheiro ou diretoria
+cp -> copia um ficheiro ou diretoria
+mv -> move um ficheiro ou diretoria
+echo -> imprime uma string ou o conteúdo de um ficheiro no terminal
+cat -> concatena e imprime o conteúdo de um ficheiro
+grep -> procura um padrão num ficheiro
+chmod -> muda as permissões de um ficheiro
+sudo -> corre um comando com privilégios administrativos
+df -> mostra a quantidade de espaço em disco disponível
+history -> mostra uma lista com o comandos executados anteriormente
+ps -> mostra informação sobre os processos a correr
+which bash -> devolve a localização do bash
+
+OUTROS OPERADORES:
+-gt -> greater than
+-ge -> greater or equal
+-lt -> less than
+-le -> lesser or equal
+-a -> e (and)
+-o -> ou (or)
+
+CONDICIONAIS:
+if
+else
+elif
+    exemplo:
+        if [[ condition ]]; then
+            statement
+        elif [[ condition ]]; then
+            statement 
+        else
+        do this by default
+        fi
+
+CASE STATEMENTS:
+case expression in
+    pattern1)
+        # code to execute if expression matches pattern1
+        ;;
+    pattern2)
+        # code to execute if expression matches pattern2
+        ;;
+    pattern3)
+        # code to execute if expression matches pattern3
+        ;;
+    *)
+        # code to execute if none of the above patterns match expression
+        ;;
+esac
